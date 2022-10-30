@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blue Lotus</title>
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm5GrC9ohb8vzA1ELeCh0oIZON3oyj4BT3Pg&usqp=CAU"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="https://www.bluelotushealthandwellness.com/uploads/1/2/2/0/122092860/bluelotus-wellness-hori_1.png"
+          alt=""
+        />
+        <ul>
+          <li>BILAN</li>
+          <li>PROGRAMMES</li>
+          <li>NUTRITION</li>
+          <li>FORME</li>
+          <li><button class="btn">BOUTIQUE</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="title">
+        <h1>
+          Calcul du poids idéal pour homme et femme avec la taille (formule de
+          Lorentz)
+        </h1>
+      </div>
+      <div class="calcul">
+        <div class="jogging"></div>
+        <div class="body">
+          <p>
+            Comment calculer son poids idéal avec comme simple indicateur la
+            taille et le sexe ? C’est ce que propose la formule de Lorentz avec
+            tout de même l’inconvénient majeur de ne pas tenir compte de la
+            morphologie. Pour palier à ce manque et surtout si vous avez une
+            forte ossature ou au contraire, une petite carrure, vous pouvez vous
+            référer à la formule de Monnerot-Dumaine (poids idéal avec tour de
+            poignet) ou bien la formule de Creff (morphologie et âge).
+          </p>
+          <div class="calculator">
+            <h3>Calculette du poids idéal par la formule de Lorentz</h3>
+            <div id="calculette">
+              <label class="radio">
+                <input type="radio" id="h" value="Homme" name="gender" />
+                Homme
+                <span></span>
+              </label>
+              <label class="radio">
+                <input type="radio" id='f'value="Femme" name="gender" />
+                Femme
+                <span></span>
+              </label>
+              <h4 class="text">Taille (cm)</h4>
+                <input type="number" id="t" value="0"/>
+              <h4 id="result"></h4>
+              <button id="btn" onclick="poids()">Calculer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 id="title">Toutes les formules de calcul du poids</h1>
+      <div class="paragraph">
+        <img src="./images/formule-poids-ideal.png" alt="" />
+        <div class="formules">
+          <h3>Formule de Broca</h3>
+          <p>
+            Cette formule du poids idéal est la plus ancienne. Elle a été
+            inventée par le Dr Paul Broca, un chirurgien français en 1871.
+          </p>
+          <h3>Formule de Bornhardt</h3>
+          <p>
+            La formule de Bornhardt date de 1891. Cette formule a été créée à
+            l’origine pour connaitre la corpulence des personnes engagées dans
+            l’armée et ainsi déterminer leurs aptitudes physiques pour le
+            service militaire. Moins populaire que celle de Broca, elle est
+            pourtant plus fiable pour se rapprocher du poids idéal puisqu’elle
+            tient compte de la silhouette de l’individu. Poids idéal (en kg) =
+            ((Taille (en cm) x Tour de poitrine (en cm)) / 240
+          </p>
+          <h3>Formule de Creff</h3>
+          <p>
+            La Formule du professeur AF Creff créée dans les années
+            soixante-dix, est très proche du poids idéal et se veut plus «
+            pointue » qu’une autre, à condition d’avoir un regard juste sur sa
+            morphologie. Pour un individu possédant une morphologie « normale »
+            : Poids idéal (en kg) = Taille (en cm) – 100 + (Age (en années) /10)
+            x 0.9 Pour un individu possédant une morphologie « large » : Poids
+            idéal (en kg) = Taille (en cm) – 100 + (Age (en années) /10) x 0.9 x
+            1.1 Pour un individu possédant une morphologie « gracile » : Poids
+            idéal (en kg) = Taille (en cm) – 100 + (Age (en années) /10) x 0.9 x
+            0.9
+          </p>
+
+          <h3>Formule de Monnerot-Dumaine</h3>
+          <p>
+            Afin de se rapprocher toujours plus précisément du poids idéal,
+            cette formule tient compte d’une mesure corporelle autre que la
+            taille : la silhouette de l’individu. Poids idéal (en kg) = (Taille
+            en cm – 100 + 4 x Circonférence du poignet en cm) / 2
+          </p>
+        </div>
+      </div>
+      <div class="media">
+        <h3>www.blue-lotus.com</h3>
+        <img src="./images/media.webp" alt="" />
+      </div>
+      <div class="cards">
+        <div class="card" style="width: 18rem">
+          <img src="./images/exercice.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Des exercices</h5>
+            <a href="#" class="btn1">Consulter</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./images/conseil.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Des conseils</h5>
+            <a href="#" class="btn1">Consulter</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./images/coach.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Des coachs</h5>
+
+            <a href="#" class="btn1">Consulter</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./images/calcul.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Des régimes</h5>
+
+            <a href="#" class="btn1">Consulter</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

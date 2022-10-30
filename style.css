@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    z-index: 99999;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    top: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    
+    
+    
+}
+header nav img{
+    width: 268px;
+    height: 100px;
+    margin:20px 100px 10px 0px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 2em;
+    padding: 25px 13px;
+    font-family: 'quicksand';
+    color:black;
+    cursor: pointer;   
+}
+li:hover{
+    color: gray;
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'quicksand';
+    color: rgb(94,181,157);
+    font-size: 15px;
+    background: #ffffff;
+    padding: 3px 20px 10px 20px;
+    border: solid rgb(94,181,157) 4px;
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: rgb(94,181,157);
+    text-decoration: none;
+    color: white;
+  }
+  body{
+    background-image: url(./images/background*.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+  .title{
+    color: #ffffff;
+    font-family: 'quicksand';
+    padding-top: 200px;
+    text-align: center;
+    font-size: smaller;
+    font-weight: lighter;
+  }
+  .calcul{
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+    
+    
+  }
+  .jogging {
+   margin: 50px 50px;
+    width: 350px;
+    height: 453px;
+    background-image: url(./images/jogging1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .body{
+  margin: 30px 100px;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    background-image: url(./images/body.webp);
+  }
+  .paragraph{
+    width: 100%;
+    height: 650px;
+    background-color: #ffffff;
+    margin-top: 5%;
+    display: flex;
+  }
+  .body p{
+font-family: Arial, Helvetica, sans-serif;
+color:black;
+width: 500px;
+background-color:aquamarine;
+padding: 20px;
+border-radius: 10px;
+  }
+  .body img{
+    width: 400px;
+    height: 400px;
+  }
+  h3{
+    background-color: black;
+    color: #ffffff;
+    font-family: 'quicksand';
+    padding: 10px;
+  }
+  #calculette{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width:500px ;
+    height: 290px;
+    background-color:transparent;
+   box-shadow:  1px 1px 20px #ee5253;
+    
+  }
+  .text{
+    background-color: transparent;
+    padding: 15px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 50px;
+  }
+  #btn {
+    background: #d93491;
+    background-image: -webkit-linear-gradient(top, #d93491, #b82b6f);
+    background-image: -moz-linear-gradient(top, #d93491, #b82b6f);
+    background-image: -ms-linear-gradient(top, #d93491, #b82b6f);
+    background-image: -o-linear-gradient(top, #d93491, #b82b6f);
+    background-image: linear-gradient(to bottom, #d93491, #b82b6f);
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top:  30px;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  #btn:hover {
+    background: #000000;
+    text-decoration: none;
+  }
+  #t{
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #ffffff;
+    width: 200px;
+
+
+  }
+  #t:focus{
+    border-bottom: 2px solid #ffffff;
+    width: 300px;
+    transition: 0.5s;
+  }
+  .radio{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  #title{
+    color: #ffffff;
+    font-family: 'quicksand';
+  margin-top: 50px; 
+     text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  .paragraph img{
+    width: 350px;
+    height: 450px;
+    margin:50px 100px
+  }
+  .formules{
+    display: flex;
+    flex-direction: column;
+    margin :20px;
+    border-radius: 20px;
+
+  }
+  .formules p{
+    background-color:rgba(78, 38, 38, 0.658);
+    font-family: 'quicksand';
+    padding: 10px;
+  }
+  .media{
+    background-color: #000000;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .media img{
+    width: 280px;
+    height: 130px;
+  }
+  .cards{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    background-color: gray;
+   height: 500px;
+  }
+  .card{
+background-color: #000000;
+height: 20rem;
+border-radius: 20px;
+box-shadow: 1px 1px 10px #000000;
+  }
+  .card img{
+    width: 18rem;
+    height: 15rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .btn1 {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family:'Courier New', Courier, monospace ;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 7px 10px 7px 10px;
+    text-decoration: none;
+    margin-left: 150px;
+    
+  }
+  
+  .btn1:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .card-title{
+    margin: 10px;
+    color: #ffffff;
+    font-family: 'quicksand';
+    font-size: large;
+  }
+  #result{
+    color:#ffffff;
+    font-size: larger;
+    margin-top: 20px;
+    font-weight: 700;
+  }
